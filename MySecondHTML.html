@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registry Form</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <p><a href="MyFirstHTML.html">Go Back</a></p>
+  <form>
+    First Name: <input type="text" required name="FirstName"><br>
+    Last Name: <input type="text" required name="LastName"><br>
+    Email: <input type="email" required name="Email"><br>
+    Password: <input type="password" required minlength="5" name="Password"> <br>
+    Birthday: <input type="date" name="Birthday"> <br>
+    Gender: 
+    <input type="radio" name="Gender" value="Male">Male <input type="radio" name="Gender" value="Female">Female <input type="radio" name="Gender" value="Other">Other <br>
+    Pets: <br>
+    <input type="checkbox" name="Cat"> Cat <br> <input type="checkbox" name="Dog"> Dog <br> <input type="checkbox" name="Turtle"> Turtle <br>
+    Cars: <br>
+    <!-- select option: multiple -->
+    <select name="Cars" multiple>
+      <option value="Volvo">Volvo </option>
+      <option value="Audi">Audi</option>  
+      <option value="Chevrolet">Chevrolet</option>
+    </select> <br><br>
+    <input type="submit" value="Register!">
+    <input type="reset">
+  </form>
+</body>
+</html>
